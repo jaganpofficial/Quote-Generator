@@ -17,11 +17,11 @@ newquote.addEventListener("click", function () {
 
 tweet.addEventListener("click", function () {
 	window.open(
-		"https://twitter.com/intent/tweet?text=" +
+			"https://twitter.com/intent/tweet?text=" +
 			document.querySelector("blockquote").innerHTML +
 			"~ by " +
 			document.querySelector("span").innerHTML,
-		"Tweet window",
-		"width = 600, height=300"
+		 	"Tweet window",
+			"width = 600, height=300"
 	);
 });
